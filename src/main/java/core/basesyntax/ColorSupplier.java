@@ -8,6 +8,7 @@ public class ColorSupplier {
     public ColorSupplier(Random random) {
         this.random = random;
     }
+
     public String getRandomColor() {
         int randNumber = random.nextInt(Colors.values().length);
 
